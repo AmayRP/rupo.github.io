@@ -1,0 +1,86 @@
+body {
+margin: 0;
+font-family: Georgia, serif;
+background: #0f0f0f;
+color: white;
+overflow: hidden;
+cursor: none;
+}
+
+.page {
+display: none;
+height: 100vh;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+padding: 20px;
+}
+
+.page.active {
+display: flex;
+}
+
+button {
+background: #ff4d6d;
+border: none;
+padding: 12px 20px;
+color: white;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 20px;
+}
+
+.gallery img {
+width: 120px;
+margin: 10px;
+border-radius: 10px;
+}
+
+.love-list div {
+background: #1a1a1a;
+margin: 10px;
+padding: 10px;
+border-radius: 8px;
+}
+
+.timeline {
+border-left: 2px solid #ff4d6d;
+padding-left: 20px;
+text-align: left;
+}
+
+.event {
+margin-bottom: 20px;
+}
+
+#musicPlayer {
+position: fixed;
+bottom: 10px;
+left: 15px;
+}
+
+#songName {
+position: fixed;
+bottom: 50px;
+left: 15px;
+font-size: 12px;
+color: #aaa;
+}
+
+/* Bunny cursor */
+#cursor {
+position: fixed;
+font-size: 24px;
+pointer-events: none;
+z-index: 9999;
+}
+/* Hide default cursor everywhere */
+* {
+    cursor: none !important;
+}
+
+/* Ensure buttons don't show hand cursor */
+button, a, img, div {
+    cursor: none !important;
+}

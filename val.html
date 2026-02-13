@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Rupomanjaree</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Sections container -->
+<div id="sections">
+
+<!-- Section 1 -->
+<section class="page active">
+<h1>FOR MY CUTUJAAN</h1>
+<button onclick="nextSection()">Open it</button>
+</section>
+
+<!-- Section 2 -->
+<section class="page">
+<h2>For you my love</h2>
+<p>
+Babybun, being with you has been one of the most beautiful things to ever happen in my life <br>
+I remember on the day we confessed, it felt like someone truly saw the real me and i felt so loved with <br>
+you always and from that day I knew i wanted to build something with you. <br>
+no matter where life takes us, you will always be someone deeply precious to me, hate the distance tho.<br><br>
+dono thode ghochu hain but i love us.
+</p>
+<button onclick="nextSection()">Next</button>
+</section>
+
+<!-- Section 3 -->
+<section class="page">
+<h2>kahani n all</h2>
+<div class="timeline">
+<div class="event">The day we met - 24 August - I didn't know this day i will meet such a wonderful person totally worth it</div>
+<div class="event">The day we confessed - 6th September - felt crazy butterflies us din n i wanted to kiss you so badddd</div>
+<div class="event">Today - still in love with you and still want to sleep on calls and make u listen to my snores</div>
+</div>
+<button onclick="nextSection()">Next</button>
+</section>
+
+<!-- Section 4 -->
+<section class="page">
+<h2>US</h2>
+<div class="gallery">
+<img src="pics/kiwi.jpeg">
+<p> aur pics maangne me sharam aari thi toh ek hi hai, i wanted to add it takes two wala but sadly i dont have it</p>
+</div>
+<button onclick="nextSection()">Next</button>
+</section>
+
+<!-- Section 5 -->
+<section class="page">
+<h2>10 THINGS I LOVE ABOUT YOU</h2>
+<div class="love-list">
+<div>AAPKI NOM NOM SI AWAZ, PLEASE DONT STOP MAKING RAYASMR</div>
+<div>I LOVE WHEN YOU ARE AROUND, EVEN WHEN WE ARE SILENT, ITS SOOO GOOD UGHH</div>
+<div>I LOVE HOW YOU ARE ALWAYS SO HONEST WITH ME MWAH</div>
+<div>I LOVE HOW YOU SUPPORT ME WHEN IM DOWN AND MOODY</div>
+<div>EK TOH YAAR TUMHARE BAAL NOM NOM KARJAUNGA JAB MILENGE</div>
+<div>NOZI KHA JAUNGA AAPKI AND BOOPIES</div>
+<div>YOUR LAUGH MAKES MY DAY, GRHRGHRG GRHRGHR</div>
+<div>I LOVE THE WAY YOU SAY MY NAME and moans.. :3</div>
+<div>I LOVE THE WAY YOU GIVE ME SO MANY NICKNAMESS</div>
+<div>and... i wanna see your smile thats why i keep asking for your video</div>
+</div>
+<button onclick="nextSection()">Next</button>
+</section>
+
+<!-- Section 6 -->
+<section class="page">
+<h2>IM GLAD YOU EXIST IN MY LIFE AND I GET TO CALL YOU MINE</h2>
+<button onclick="nextSection()">One last thing</button>
+</section>
+
+<!-- Final -->
+<section class="page">
+<h1>I LOVE YOU SO MUCH MERI BUNNY</h1>
+</section>
+
+</div>
+
+<!-- Music player -->
+<audio id="bgMusic"></audio>
+
+<div id="musicPlayer">
+<button onclick="prevSong()">⏮</button>
+<button onclick="toggleMusic()" id="playBtn">Play</button>
+<button onclick="nextSong()">⏭</button>
+</div>
+
+<p id="songName"></p>
+
+<!-- Bunny sound -->
+<audio id="bunnySound">
+<source src="sounds/bunny.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
